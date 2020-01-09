@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;  
+    list-style-type: none;
+    
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(60, 194, 218);
+    font-family: 'poppins', sans-serif;
+    list-style-type: none;
+    
+    
+  }
+
+  form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  .logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
+  
+  .nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+  }
+  .nav-links li{
+    list-style: none;
+  }
+  .nav-links a{
+    color: white;
+    text-decoration: none;
+  }
+  .wrapper {
+    width: 100%
+    
+  }
+ 
+  header {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white
+    
+  }
+  
+  /* flexboxes */
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  
+  
+  /*Menu*/
+  nav ul {
+    list-style-type: none;
+    
+    padding: 0;
+  }
+  
+  
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+
+  footer {
+
+    padding: 10px;
+    text-align: right;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+  }
+  
+  #LogoDaPagina{
+    width: 99.001vw;
+  }
+ 
+  body {
+    min-height:120vh;
+    background-color:#f1f1f1;
+  }
+ 
+
+  /*TESTE LOGIN*/
+
+form {
+  border: 4px solid #f1f1f1;
+}
+
+
+input[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc; /*contorno fino a cinzento*/
+  box-sizing: border-box;
+  text-align: center;
+  
+  
+}
+
+input[type=password] {
+  width: 42%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc; /*contorno fino a cinzento*/
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+
+
+button { /*botao do login*/
+  background-color: rgb(60, 194, 218);
+  color: white;
+  padding: 20px 20px;
+  margin: 10px 0;
+  border: none;
+  width: 20%;
+  text-align: center;
+}
+
+.botaoconsulta { /*botao do login*/
+  display: grid;
+  width: 400px;
+  height: 200px;
+  background-color: rgb(60, 194, 218);
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.botaoconsultamarcada { /*botao do login*/
+  display: grid;
+  width: 400px;
+  height: 200px;
+  background-color: rgb(60, 194, 218);
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+
+  font-size: larger;
+}
+
+
+.container {
+  padding: 16px;
+  
+}
+
+/* FAQ*/
+
+.accordion {
+  background-color: rgb(161, 227, 238);
+  color: #444; /*ao meter o cursor fica cinza*/
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  font-size: medium;
+
+}
+
+/*pos login*/
+
+a.botao {
+ display: grid;
+  width: 500px;
+  height: 100px;
+  background-color: rgb(60, 194, 218);
+  padding: 45px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  text-decoration : none;
+  font-size: larger;
+  
+}
+
+#register center{
+  width: 100%;
+}
+
+
+.perfil{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+}
